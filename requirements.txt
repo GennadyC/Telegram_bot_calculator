@@ -1,0 +1,2 @@
+pyenchant==3.2.0
+google-cloud-dialogflow
