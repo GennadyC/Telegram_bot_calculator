@@ -117,6 +117,7 @@ class Generator:
             if messages != []:
                 for message in messages:
                      chain.parse_and_add(message)
+                print('Сгенерированы новые ответы для намерения "%s":' % intent.display_name)
                 for i in range(20):
                     print(chain.generate_sentence(140))
-                print ('--------------------------------------')
+                print('\n')
